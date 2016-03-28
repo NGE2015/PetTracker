@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PetTracker.Views.test_area.test_1">
+  <StackLayout Orientation="Vertical">
+  <Entry x:Name="txt_login" Placeholder="logon"></Entry>
+  <Entry x:Name="txt_pw" Placeholder="password"></Entry>
+  <Button x:Name="cmd_save" Text="gravar" Clicked="cmd_save_Clicked"></Button>
+  <Button x:Name="cmd_count" Text="Contar" Clicked="cmd_count_Clicked"></Button>
+  </StackLayout>
+</ContentPage>
